@@ -1,0 +1,33 @@
+.logo {
+    grid-area: logo;
+    margin-right: 0.3vw;
+    place-self: center;
+    .app-logo {
+        width: 100%;
+        height: 100%;
+    }
+}
+.logo-text {
+    grid-area: logo-text;
+    display: flex;
+    align-items: center;
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: #34373f;
+}
+.logo-sub-text {
+    grid-area: logo-sub-text;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #9faab3;
+}
+.logo-container {
+    display: grid;
+    grid-template-columns: 4vw 40vw;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "logo logo-text"
+        "logo logo-sub-text";
+}

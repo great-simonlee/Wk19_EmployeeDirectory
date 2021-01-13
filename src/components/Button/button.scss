@@ -1,0 +1,15 @@
+.button {
+    display: inline-block;
+    border-radius: 0.5vw;
+    border: 1px solid #8270df;
+    box-sizing: border-box;
+    padding: 0.1vw 0.8vw;
+    color: #6f7d89;
+    font-size: 1.4rem;
+    cursor: pointer;
+    &:hover {
+        border: 1px solid #8270df;
+        background: #8270df;
+        color: #ffffff;
+    }
+}

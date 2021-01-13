@@ -1,0 +1,45 @@
+.t-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #8270df;
+    margin-top: 0.2vw;
+    padding: 0 1.2vw 0 1.2vw;
+    height: 2vw;
+    border-radius: 0 2vw 0 0;
+    .t-col {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: left;
+        color: #fff;
+    }
+    .t-col:last-child {
+        flex: 0.5;
+    }
+    .t-header-filter {
+        cursor: pointer;
+    }
+}
+
+.t-row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2vw;
+    padding: 0 1.2vw 0 1.2vw;
+    height: 3vw;
+    border-radius: 0 2vw 0 0;
+    border-bottom: 0.1vw solid #f5f5f7;
+    .t-col {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: left;
+        color: #000000;
+    }
+
+    .t-col:last-child {
+        flex: 0.5;
+    }
+}

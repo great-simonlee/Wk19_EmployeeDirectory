@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //outline: 1px solid #66b8da !important;
+}
+//Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+html {
+    font-size: 0.65vw;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+html,
+body,
+#root {
+    height: calc(100% - 3.3vw);
+}
